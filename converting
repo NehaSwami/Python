@@ -1,6 +1,6 @@
-a1 = input('Enter a: ')
-b1 = input('Enter b: ')
-c1 = input('Enter c: ')
-d1 = input('Enter d: ')
+a1 = int(input('Enter a: '))
+b1 = int(input('Enter b: '))
+c1 = int(input('Enter c: '))
+d1 = int(input('Enter d: '))
 
 print("(a,",a1,")(b,",b1,")(c,",c1,")(d,",d1,")")
