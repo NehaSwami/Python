@@ -1,6 +1,11 @@
-a1 = int(input('Enter a: '))
-b1 = int(input('Enter b: '))
-c1 = int(input('Enter c: '))
-d1 = int(input('Enter d: '))
 
-print("(a,",a1,")(b,",b1,")(c,",c1,")(d,",d1,")")
+
+
+
+def input():
+  a1 = int(input('Enter a: '))
+  b1 = int(input('Enter b: '))
+  c1 = int(input('Enter c: '))
+  d1 = int(input('Enter d: '))
+def compute():
+  print("(a,",a1,")(b,",b1,")(c,",c1,")(d,",d1,")")
