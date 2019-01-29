@@ -1,11 +1,16 @@
+def input_str():
+	str1 = input("enter str: ")
+	return str1
 
-
-
-
-def input():
-  a1 = int(input('Enter a: '))
-  b1 = int(input('Enter b: '))
-  c1 = int(input('Enter c: '))
-  d1 = int(input('Enter d: '))
-def compute():
-  print("(a,",a1,")(b,",b1,")(c,",c1,")(d,",d1,")")
+    
+def setconvert():   #tuples
+	str2 = input_str()
+ 
+    
+	a = str2.split(";")
+	result=[]
+	# a is a list
+	for r in a:
+    	b = r.split("=")
+    	result.append(b)
+	return result
